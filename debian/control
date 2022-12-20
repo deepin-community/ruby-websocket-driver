@@ -1,0 +1,30 @@
+Source: ruby-websocket-driver
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Andrew Lee (李健秋) <andrew.lee@collabora.co.uk>
+Build-Depends: debhelper-compat (= 12),
+               gem2deb (>= 1.0~),
+               ruby-websocket-extensions (>= 0.1.0)
+Standards-Version: 4.5.0
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-websocket-driver.git
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-websocket-driver
+Homepage: https://github.com/faye/websocket-driver-ruby
+Testsuite: autopkgtest-pkg-ruby
+XS-Ruby-Versions: all
+
+Package: ruby-websocket-driver
+Architecture: any
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ruby | ruby-interpreter,
+         ruby-websocket-extensions (>= 0.1.0),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: WebSocket protocol handler with pluggable I/O
+ This module provides a complete implementation of the WebSocket
+ protocols that can be hooked up to any TCP library. It aims to simplify
+ things by decoupling the protocol details from the I/O layer, such that
+ users only need to implement code to stream data in and out of it
+ without needing to know anything about how the protocol actually works.
+ .
+ Think of it as a complete WebSocket system with pluggable I/O.

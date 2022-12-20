@@ -1,0 +1,57 @@
+ruby-websocket-driver (0.6.3-deepin1) unstable; urgency=medium
+
+  * Rebuild
+
+ -- Deepin Packages Builder <packages@deepin.org>  Fri, 11 Nov 2022 18:05:12 +0800
+
+ruby-websocket-driver (0.6.3-3) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Utkarsh Gupta ]
+  * Add salsa-ci.yml
+
+  [ Debian Janitor ]
+  * Use secure copyright file specification URI.
+  * Use secure URI in debian/watch.
+  * Use secure URI in Homepage field.
+  * Bump debhelper from deprecated 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Sruthi Chandran ]
+  * Update minimum version of gem2deb to 1.0
+
+  [ Pirate Praveen ]
+  * Bump Standards-Version to 4.5.0 (no changes needed)
+  * Move debian/watch to gemwatch.debian.net
+
+ -- Pirate Praveen <praveen@debian.org>  Fri, 17 Jul 2020 00:20:14 +0530
+
+ruby-websocket-driver (0.6.3-2) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Christian Hofstaedtler ]
+  * Drop old style debug package.
+  * Refresh packaging using dh-make-ruby -w.
+
+  [ Cédric Boutillier ]
+  * Bump debhelper compatibility level to 9
+  * Use https:// in Vcs-* fields
+  * Bump Standards-Version to 3.9.7 (no changes needed)
+  * Run wrap-and-sort on packaging files
+
+  [ Hleb Valoshka ]
+  * Add ruby-websocket-extensions to dependencies (Closes: #816882)
+
+ -- Christian Hofstaedtler <zeha@debian.org>  Tue, 08 Mar 2016 21:02:33 +0000
+
+ruby-websocket-driver (0.6.3-1) unstable; urgency=medium
+
+  * Initial release (Closes: #797160)
+
+ -- Andrew Lee (李健秋) <andrew.lee@collabora.co.uk>  Wed, 06 Jan 2016 01:42:01 +0800
